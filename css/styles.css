@@ -1,0 +1,284 @@
+/* styles for body and header */
+body {
+  font-family: Arial, sans-serif;
+  color: #ffe75e;
+}
+
+header {
+  background: #aba8f4;
+  color: #4646b4;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+header p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* styles for main section */
+main {
+  margin: 20px;
+}
+
+section#intro {
+  background: #f6dada;
+  color: #6c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+section#intro h2 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+section#intro p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+section#benefits {
+  background: #daf6e8;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+section#benefits h2 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+section#benefits ul {
+  font-size: 20px;
+  line-height: 1.5;
+  list-style: none;
+  padding: 0;
+}
+
+section#benefits ul li {
+  margin-bottom: 10px;
+}
+
+section#benefits h4 {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+section#benefits .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section#benefits .card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+section#benefits .card-text {
+  font-size: 18px;
+}
+
+section#intro {
+  background: #f6dada;
+  color: #6c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+section#download {
+  background: #ffe5b4;
+  color: #8b5a00;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+section#download h2 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+section#download p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer {
+background-color: #aba8f4;
+color: #ffffff;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+clear: both; /* add clear to fix the footer */
+}
+
+
+/* media queries for responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  section#intro h2 {
+    font-size: 28px;
+  }
+
+  section#intro p {
+    font-size: 18px;
+  }
+
+  section#benefits h2 {
+    font-size: 28px;
+  }
+
+  section#benefits ul {
+    font-size: 18px;
+  }
+
+  section#benefits h4 {
+    font-size: 24px;
+  }
+
+  section#benefits .card-title {
+    font-size: 20px;
+  }
+
+  section#benefits .card-text {
+    font-size: 16px;
+  }
+
+  section#download h2 {
+    font-size: 28px;
+  }
+
+  section#download p {
+    font-size: 18px;
+  }
+}
+
+
+/* Style for each component */
+<style> 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  top: 5px
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  background: #ffffff;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+</style>
+
+<style>
+  .card {
+    position: relative;
+    background-color: #edf3b7;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .icon {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 80px;
+    height:80px;
+   
+  }
+</style>
+
+<style>
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.like-button {
+  background-color: #e8d124;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+    width: 100px;
+  padding: 5px 25px;
+  margin-right: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.like-button span {
+  margin-right: 5px;
+}
+
+.dislike-button {
+  background-color: #f6538f;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px 15px;
+  margin-right: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dislike-button span {
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-container button {
+  margin-right: 15px;
+}
+
+.button-container button span {
+  margin-left: 10px;
+}
+</style>
+
+
+
+<style>
+  #downloads a {
+    display: inline-block;
+    margin-right: 80px; /* add some margin between the icons */
+  }
+</style>
